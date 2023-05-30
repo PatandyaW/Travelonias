@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Home Page */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.custom-font-navbar,
+.custom-font-desloc,
+.custom-about-font,
+.custom-font-footer {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-font-product-select,
+.costum-font {
+  font-family: "Roboto", sans-serif;
+}
+
+p.card-text {
+  font-size: 15px;
+}
+
+.btn-cari {
+  height: 10hv;
+}
+
+article.custome-section1 {
+  background: url("/Travelonia/public/assets/forest.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.custome-button2 {
+  width: 100px;
+}
+
+/* Navigasi */
+
+.navbar {
+  box-shadow: 0 12px 20px rbga(0, 0, 0, 0.1);
+}
+
+ul.navbar-nav {
+  list-style: none;
+}
+ul.navbar-nav li.nav-item a {
+  transition: all 0.3 ease 0s;
+  color: #121212;
+}
+
+ul.navbar-nav li.nav-item a:hover {
+  color: #228b72;
+}
+
+
+.custom-warna-nav {
+  color: #171717;
+}
+
+
+.line-text {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.custom-warna-nav {
+  color: #171717;
+}
+
+/* Animation About Us*/
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* Animation Home Location and Destination */
+
+/* div.costume-animation {
+  transition: transform 0.2s;
+}
+
+div.costume-animation:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+} */
+
+@keyframes coba {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Detail Page */
+
+article.custome-section2 {
+  background-image: url("/Travelonia/public/assets/beautiful-forest.jpg");
+  background-size: 100% 50vh;
+  background-repeat: no-repeat;
+}
+
+.card-one {
+  margin: 100px;
+}
+
+.card-second {
+  margin-top: 20px;
+}
+
+.card-third {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+.custome-text-harga {
+  font-family: "Padauk", sans-serif;
+  color: #317867;
+}
+
+.custome-button {
+  margin-top: 30px;
+  width: 50%;
+}
+
+/* Confirmation */
+
+hr.costume-hr {
+  border-top: 2px solid white;
+}
+
+.costume-margin {
+  margin-top: -15px;
+  margin-left: 46px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Sidebar */
+
+div.side-nav {
+    background: #461966;
+}
+  
+
+
+ul.nav-links {
+  list-style: none;
+  position: relative;
+}
+
+ul.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 14px;
+  display: flex;
+  align-items: center;
+}
+
+ul.nav-links li a i {
+  font-size: 22px;
+  margin-right: 20px;
+}
+ul.nav-links li:hover a {
+  color: #0d74f5;
+  transition: 0.5s;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  
+
+  ul.nav-links {
+    padding: 0px;
+    margin-left: 20px;
+  }
+
+
+  .nav-links li a p {
+    display: none;
+  }
+
+  .nav-links li:hover a {
+    justify-content: center;
+    color: #0d74f5;
+    transition: 0.5s;
+    background-color: #fff;
+  }
+}
+
+
+/* Profile */
+
+img.costume-img-profile{
+  width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  img.costume-img-profile{
+    width: 50px;
+  }
+
+
+}
